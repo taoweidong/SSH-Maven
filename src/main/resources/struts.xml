@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+
+	<!-- 动态方法调用，为true时，可以在action中使用通配符*来调用Action的方法 -->
+	<constant name="struts.enable.DynamicMethodInvocation" value="false"></constant>
+	<constant name="struts.devMode" value="true"></constant>
+	<!-- package提供了将多个Action组织为一个模块的方式 package的名字必须是唯一的 package可以扩展 当一个package扩展自 
+		另一个package时该package会在本身配置的基础上加入扩展的package 的配置 父package必须在子package前配置 name：package名称 
+		extends:继承的父package名称 abstract:设置package的属性为抽象的 抽象的package不能定义action 值true:false 
+		namespace:定义package命名空间 该命名空间影响到url的地址， 例如此命名空间为/test那么访问是的地址为http://localhost:8080/struts2/test/XX.action -->
+
+	<package name="default" namespace="/" extends="struts-default">
+		<action name="hello_*" class="hello" method="{1}">
+			<result name="test001">/success.jsp</result>
+			<result name="list">/index.jsp</result>
+			<result name="input">/index.jsp</result>
+		</action>
+	</package>
+
+
+
+</struts>    

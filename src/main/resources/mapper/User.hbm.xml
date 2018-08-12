@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/DTD//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.taowd.pms.domain">
+
+	<class name="User" table="pms_User">
+		<id name="id">
+			<generator class="uuid" />
+		</id>
+		<property name="name" />
+		<property name="sex" />
+		<property name="age" />
+	</class>
+</hibernate-mapping>
