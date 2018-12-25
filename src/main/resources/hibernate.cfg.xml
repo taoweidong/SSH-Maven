@@ -12,5 +12,4 @@
 		<property name="hibernate.hbm2ddl.auto">update</property>
 		<!-- 二级缓存相关 -->
 	</session-factory>
-
 </hibernate-configuration>

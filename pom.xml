@@ -14,7 +14,7 @@
 		<!-- 指明编译源代码时使用的字符编码，maven编译的时候默认使用的GBK编码， 通过project.build.sourceEncoding属性设置字符编码，告诉maven这个项目使用UTF-8来编译 -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<!-- struts版本号 -->
-		<struts.version>2.3.15.3</struts.version>
+		<struts.version>2.3.35</struts.version>
 		<!-- spring版本号 -->
 		<spring.version>4.0.1.RELEASE</spring.version>
 		<!-- Hibernate版本号 -->
