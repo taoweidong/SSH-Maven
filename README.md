@@ -3,3 +3,9 @@
 
 # 注意事项
 - 注意Tomcat的版本和jdk版本应对应，tomcat8.5--->jdk1.8
+
+# 开发环境
+- IDE:sts-3.9.5.RELEASE
+- jdk:1.8
+- tomcat8.5
+- Maven:apache-maven-3.5.0
