@@ -16,7 +16,7 @@
     <!-- struts版本号 -->
     <struts.version>2.3.35</struts.version>
     <!-- spring版本号 -->
-    <spring.version>4.0.1.RELEASE</spring.version>
+    <spring.version>6.0.0</spring.version>
     <!-- Hibernate版本号 -->
     <hibernate.version>4.2.4.Final</hibernate.version>
     <!-- mysql驱动版本号 -->
